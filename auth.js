@@ -3,7 +3,7 @@ function login(username, password) {
   if (!username || username.trim() === "") {
     return false;
   }
-
+//Bổ sung ghi chú 
   // Kiểm tra tài khoản bị khóa
   if (username === "locked_user") {
     throw new Error("Account is locked");
